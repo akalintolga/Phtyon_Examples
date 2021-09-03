@@ -26,7 +26,8 @@ class hesapMakinesi_v2(object):
 
 birincisayi = int(input("Birinci Sayıyı Giriniz: "))
 ikincisayi  = int(input("İkinci Sayıyı Giriniz:  "))
-secim = input("Yapmak İstediğiniz İşlemi Seçiniz\n1)Topla: \n2)Çıkar: \n3)Çarp: \n4)Böl: ")
+secim = input("Yapmak İstediğiniz İşlemi Seçiniz\n1)Topla: \n2)Çıkar: \n3)Çarp: \n4)Böl: \n")
+print("Seçilen İşlem Numarası:",secim)
 hesapla = hesapMakinesi_v2(birincisayi,ikincisayi)
 
 if secim == "1":
@@ -44,7 +45,7 @@ elif secim == "3":
 elif secim == "4":
 
     print("Seçilen Sayıların Bölümü: ", hesapla.bol())        
-    
+
 
 
 
